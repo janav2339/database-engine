@@ -66,7 +66,7 @@ public class DBApp implements IDatabase {
 	}
 
 	@Override
-	public void insertIntoTable(String strTableName, Hashtable<String, Object> htblColNameValue) throws DBAppException  {
+	public void insertIntoTable(String strTableName, Hashtable<String, Object> htblColNameValue) throws DBAppException {
 
 		takeAction(Action.INSERT, strTableName, htblColNameValue);
 
